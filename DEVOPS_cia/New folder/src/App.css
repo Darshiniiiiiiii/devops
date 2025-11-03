@@ -1,0 +1,99 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* --- Filter Styles --- */
+.filter-container {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.filter-container label {
+    font-weight: bold;
+    color: #495057;
+    margin-right: 10px;
+}
+
+.filter-container select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* --- Movie List and Card Styles --- */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.movie-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 25px;
+  width: 320px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card h2 {
+  color: #007bff;
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.current-rating-display {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stars-display {
+    color: #ffc107; /* Gold color for stars */
+    font-size: 1.4em;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* --- Rating Selector Styles --- */
+.rating-selector {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-selector select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    background-color: #f8f9fa;
+    font-size: 1em;
+    cursor: pointer;
+}
